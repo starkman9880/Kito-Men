@@ -1,0 +1,973 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<title>Gilt</title>
+<style type="text/css">
+/** MOBILE STYLES **/
+@media (prefers-color-scheme: dark) {
+ .borders {border-color: #cccccc !important;}
+ .whiteText {color: #ffffff !important;}
+}
+@media only screen and (max-device-width: 480px), screen and (max-width: 480px) {
+
+.Body_drop {width: 100% !important; float: left !important;}
+.mobilecontent {display: block !important; max-height: none !important;}
+div[class="mobilecontent"] {display: block !important; max-height: none !important;}
+div.mobilecontent {display: block !important; max-height: none !important;}
+.hide {
+    max-height:0 !important; /* Gmail*/
+    display:none !important; /* Generic*/
+    mso-hide:all !important; /* Outlook clients*/
+    overflow:hidden !important; /* Generic */
+    }
+.Width_100percent {width: 100% !important;}
+.Width_320 {width: 320px !important;}
+.Width_310 {width: 310px !important;}
+.Width_152 {width: 152px !important;}
+.Width_100 {width: 80px !important;}
+.Width_1percent {width: 1% !important;}
+.Width_25percent {width: 21% !important;}
+.Width_30percent {width: 30% !important;}
+.Width_40percent {width: 40% !important;}
+.Width_45percent {width: 45% !important;}
+.Width_50percent {width: 50% !important;}
+.Width_60percent {width: 60% !important;}
+.Width_70percent {width: 70% !important;}
+.Width_80percent {width: 80% !important;}
+.width100 {width: 90%; /* Full width */}
+.Width_95percent {width: 95% !important;}
+.Width_98percent {width: 98% !important;}
+
+.Footer_Nav_Font {font-size:12px !important;}
+.Footer_CANSPAM_Font {font-size:12px !important; line-height:20px !important;}
+.Footer_Nav_Font_10px {font-size:10px !important;  font-weight:bold !important;}
+.Nav_BorderBottom {border-bottom: solid 1px #cccccc !important;}
+.header_border_bottom {border-bottom:1px !important; border-bottom:solid !important; border-bottom-color:#cccccc !important;}
+.AlignLeft {text-align:left !important; margin: 0 auto !important;}
+
+.padding_L_0 {padding-left:0px !important;}
+.padding_L_5p {padding-left:5% !important;}
+.padding_LR_5 {padding-left:5px !important; padding-right:5px !important;}
+.padding_LR_10p {padding-left:10% !important; padding-right:10% !important;}
+.padding_LR_10 {padding-left:10px !important; padding-right:10px !important;}
+.padding_LR_18_7 {padding-left:18px !important; padding-right:7px !important;}
+.padding_LR_50 {padding-left:50px !important; padding-right:50px !important;}
+.padding_R_0 {padding-right:0px !important;}
+.padding_R_7 {padding-right:7px !important;}
+.padding_R_100 {padding-right:80px !important;}
+.padding_B_10 {padding-bottom:10px !important;}
+.padding_B_20 {padding-bottom:20px !important;}
+.padding_T_10 {padding-top:10px !important;}
+.padding_T_20 {padding-top:20px !important;}
+.padding_T_30 {padding-top:30px !important;}
+
+.Font11 {font-size:11px !important;}
+.Font12 {font-size:12px !important; letter-spacing:0px !important;}
+.Font13 {font-size:13px !important; line-height:normal !important; letter-spacing:0px !important;}
+.Font14 {font-size:14px !important; line-height:normal !important;}
+.Font16 {font-size:16px !important; letter-spacing:0px !important;}
+.Font18 {font-size:18px !important;}
+.Font22 {font-size:22px !important;}
+.Font26 {font-size:26px !important;}
+.Font30 {font-size:30px !important;}
+.Font38 {font-size:38px !important;}
+.Font40 {font-size:40px !important; line-height:normal !important;}
+
+/** Transactional Mobile Styles, 2017 update **/
+ .OpenSans30{font-size:20px !important; color:#000001;}
+ .OpenSans14{font-size:15px !important; color:#000001;}
+ .OpenSans13{font-size:15px !important; color:#000001;}
+ .OpenSans12{font-size:14px !important; color:#000001;}
+ .OpenSans11{font-size:11px !important; color:#000001;}
+ .OpenSans10{font-size:10px !important; color:#000001;}
+
+/** Product Invite **/
+.HeadlineFont {font-size:18px !important;}
+.HeadlineNameFont {font-size:32px !important;}
+.ProductFont {font-size:18px !important; line-height:26px !important;}
+
+.Images_Resize {width: 100%; height: auto;}
+.Images_Resize10 {width: 10%; height: auto;}
+.Images_Resize_30 {width: 30%; height: auto;}
+.Images_Resize30 {width: 30%; height: auto;}
+.Images_Resize40 {width: 40%; height: auto;}
+.Images_Resize50 {width: 50%; height: auto;}
+.Images_Resize60 {width: 60%; height: auto;}
+.Images_Resize_70 {width: 70%; height: auto;}
+.Images_Resize_80 {width: 80%; height: auto;}
+
+.full {display:block;width:100%;}
+.Body_drop_2 {width: 50% !important; float: left !important;}
+
+.WaitingWidth_28x10 {width: 28px !important; height: 10px !important;}
+.WaitingWidth_28 {width: 28px !important;}
+.align_center {text-align:center !important; margin: 0 auto !important;}
+.image_center {margin: 0 auto !important;}
+.show {overflow: visible !important; float: none !important; display: block !important;}
+.show2 {overflow: visible !important; float: none !important; display: block !important; line-height:100% !important;}
+.Header_Logo_Resize_86x50 {width: 86px !important; height: 50px !important;}
+.Header_Logo_Resize_159x50 {width: 159px !important; height: 50px !important;}
+.AlsoOnWidth_60x5 {width: 60px !important; height: 5px !important;}
+.AlsoOnWidth_60 {width: 60px !important;}
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v17/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EH7alwUzuA_q9Bg.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+font-family:"roboto";
+src:url("https://use.typekit.net/af/444a91/00000000000000007735a0ae/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/444a91/00000000000000007735a0ae/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/444a91/00000000000000007735a0ae/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+@font-face {
+font-family:"roboto";
+src:url("https://use.typekit.net/af/dec5ec/00000000000000007735a096/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/dec5ec/00000000000000007735a096/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/dec5ec/00000000000000007735a096/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+@font-face {
+font-family:"roboto";
+src:url("https://use.typekit.net/af/9d5bd3/00000000000000007735a09f/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/9d5bd3/00000000000000007735a09f/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/9d5bd3/00000000000000007735a09f/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"new-hero";
+src:url("https://use.typekit.net/af/23c255/00000000000000007735fecb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/23c255/00000000000000007735fecb/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/23c255/00000000000000007735fecb/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"new-hero";
+src:url("https://use.typekit.net/af/ff5709/00000000000000007735fec9/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/ff5709/00000000000000007735fec9/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/ff5709/00000000000000007735fec9/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"new-hero";
+src:url("https://use.typekit.net/af/baf266/00000000000000007735fec3/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/baf266/00000000000000007735fec3/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/baf266/00000000000000007735fec3/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+/** RESET STYLES **/
+p{margin:1em 0;} /*Yahoo paragraph fix*/
+table td{border-collapse:collapse;} /*This resolves the Outlook 07, 10, and Gmail td padding issue fix*/ 
+img, a img{border:0; outline:none; text-decoration:none;} /* Remove the borders that appear when linking images with border:none and outline:none */
+h1, h2, h3, h4, h5, h6{display:block !important; margin:0 !important; padding:0 !important;}
+body{
+    background-color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif !important;
+ height:100% !important;
+ -webkit-text-size-adjust:100%;
+ -webkit-font-smoothing: antialiased;
+ -ms-text-size-adjust:100;
+ margin:0 auto;
+ padding:0;
+ width:100% !important;} /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+
+/** CLIENT-SPECIFIC STYLE **/
+img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+table{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Outlook.com to display emails at full width. */
+p, a, li, td, blockquote{mso-line-height-rule:exactly;} /* Force Outlook to render line heights as they're originally set. */
+a[href^="tel"], a[href^="sms"]{color:inherit; cursor:default; text-decoration:none;} /* Force mobile devices to inherit declared link styles. */
+p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;} /* Force Outlook.com to display line heights normally. */
+
+.blueLinks a { 
+   color:inherit !important; 
+   text-decoration: none !important; 
+}
+
+a[x-apple-data-detectors]{
+  color:inherit !important;
+  text-decoration:none !important;
+  font-size:inherit !important;
+  font-family:inherit !important;
+  font-weight:inherit !important;
+  line-height:inherit !important;
+}
+
+#outlook a{
+  padding:0;
+  color:inherit;
+}
+
+/** CONTENT STYLES **/
+/* Toggle display property in Outlook. */
+ .set_outlook_hidden {display: none !important;}
+
+/** RESET STYLES **/
+p{margin:1em 0;} /*Yahoo paragraph fix*/
+table td{border-collapse:collapse;} /*This resolves the Outlook 07, 10, and Gmail td padding issue fix*/ 
+img, a img{border:0; outline:none; text-decoration:none;} /* Remove the borders that appear when linking images with border:none and outline:none */
+h1, h2, h3, h4, h5, h6{display:block !important; margin:0 !important; padding:0 !important;}
+body{
+    background-color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif !important;
+ height:100% !important;
+ -webkit-text-size-adjust:100%;
+ -webkit-font-smoothing: antialiased;
+ -ms-text-size-adjust:100;
+ margin:0 auto;
+ padding:0;
+ width:100% !important;} /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+
+/** CLIENT-SPECIFIC STYLE **/
+img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+table{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Outlook.com to display emails at full width. */
+p, a, li, td, blockquote{mso-line-height-rule:exactly;} /* Force Outlook to render line heights as they're originally set. */
+a[href^="tel"], a[href^="sms"]{color:inherit; cursor:default; text-decoration:none;} /* Force mobile devices to inherit declared link styles. */
+p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;} /* Force Outlook.com to display line heights normally. */
+
+/* Toggle display property in Outlook. */
+ .set_outlook_hidden {display: none !important;}
+
+ul.dash {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+ul.dash > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+</style>
+</head>
+<body style="margin: 0px; -webkit-text-size-adjust:none;" yahoo="fix">
+  <style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;"></div>
+  
+  
+<script type="application/ld+json">
+[{
+ "@context": "https://schema.org/",
+"@type": "Organization",
+"logo": "https://image.p.gilt.com/lib/fe931373746c047574/m/1/0a8bb02c-a5fc-43a3-97b4-12858fc0552e.png"
+},{
+"@context": "https://schema.org/",
+ "@type": "DiscountOffer",
+"description": "",
+"discountCode": "",
+"availabilityStarts":
+ "2018-01-01T08:00:00-07:00",
+"availabilityEnds":
+ ""
+},{
+ "@context": "https://schema.org/",
+ "@type": "PromotionCard",
+"image": ""
+ }]
+</script>
+
+
+
+
+<!-- ZoneName1 -->
+
+
+<!-- ZoneName2 -->
+
+
+<!-- ZoneName3 -->
+
+
+<!-- ZoneName4 -->
+
+
+<!-- ZoneName5 -->
+
+<div class="set_outlook_hidden" style="width: 0px; height: 0px; overflow: hidden; position: absolute; min-height: 0px; line-height: 0px; font-size: 0px;">Men’s A – Z Luxe | New Brooks Brothers With $49.99 Shirts | Starting at $69.99 Designer Eyewear Men</div>
+  
+
+
+
+
+<!--Live Intent SafeRTB-->
+<table cellpadding="0" cellspacing="0" border="0" width="40" height="6"><tbody><tr style="width:40px; height:6px; overflow:hidden; position:absolute; min-height:6px; line-height:6px; font-size:0px;"><td style="width:40px; height:6px; overflow:hidden; position:absolute; min-height:6px; line-height:6px; font-size:0px;"><img src="https://sli.gilt.com/imp?s=126864100&li=23&m=5c9a4efddba5282932fff6594dfeceb3&p=375339&lctg=46652734&stpe=pixel" width="2" height="6" border="0" /></td><td style="width:40px; height:6px; overflow:hidden; position:absolute; min-height:6px; line-height:6px; font-size:0px;"><img src="https://sli.gilt.com/imp?s=126864101&li=23&m=5c9a4efddba5282932fff6594dfeceb3&p=375339&lctg=46652734&stpe=pixel" width="2" height="6" border="0" /></td><td style="width:40px; height:6px; overflow:hidden; position:absolute; min-height:6px; line-height:6px; font-size:0px;">
+<img src="https://sli.gilt.com/imp?s=126864102&li=23&m=5c9a4efddba5282932fff6594dfeceb3&p=375339&lctg=46652734&stpe=pixel" width="2" height="6" border="0" /></td><td style="width:40px; height:6px; overflow:hidden; position:absolute; min-height:6px; line-height:6px; font-size:0px;"><img src="https://sli.gilt.com/imp?s=126864103&li=23&m=5c9a4efddba5282932fff6594dfeceb3&p=375339&lctg=46652734&stpe=pixel" width="2" height="6" border="0" /></td><td style="width:40px; height:6px; overflow:hidden; position:absolute; min-height:6px; line-height:6px; font-size:0px;"><img src="https://sli.gilt.com/imp?s=126864104&li=23&m=5c9a4efddba5282932fff6594dfeceb3&p=375339&lctg=46652734&stpe=pixel" width="2" height="6" border="0" /></td></tr></tbody></table>
+
+
+ 
+
+
+  
+<img src="https://click.p.gilt.com/open.aspx?ffcb10-fec1177770670774-fe5b1c76746c067f7612-fe931373746c047574-ff9a1673-fe5e1070746c067c7d1d-fefe1678756403&d=70200&bmt=0" width="1" height="1" alt="">
+<!-- Output Header & Footer Script File -->
+
+
+<!-- Header Table -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+          <tr><td align="center"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bcdaa26fe91a1a2469a7c770524d98e49069ce8e10221b68ad3fa9c02e5ca65d24f061720e9066e82c9944234e82f8feb8a9c35b5df1342db9"  ><img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/7/a668b8b3-1b94-456b-bf77-ec9650158345.gif" border="0" alt="Gilt" title="Gilt" width="1" height="1" /></a></td></tr>  
+          
+          <!-- START Mobile Header -->
+            <tr>
+                <td>
+                <!--[if !mso 9]><!-->
+                <div style="max-height:0px;overflow:hidden" class="mobilecontent">
+                <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                    <tr>
+                        <td align="center" valign="bottom">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                            <tr>
+                                <td width="33%" align="left" valign="bottom" style="padding-bottom:1%;">
+                                 &nbsp;
+                                </td>
+                                <td width="33%" align="center" valign="bottom">
+                                 <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bcdc833bcd5c09b8217df2c013c08a300a8ac927ada9fdba77c90f59619452c46bc7ce3cabaa0a871f67db79e5a41b77904ab67fd32b6e9084"  >
+                                 <img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/7/829125d6-9d0e-4e7c-a512-fcef1fae1852.png" border="0" alt="Gilt" title="Gilt" width="110" height="auto" /></a>
+                                </td>
+                                <td width="33%" align="right" valign="middle" style="padding-bottom:2%; font-size:12px; color:#797979; font-family:Helvetica, Arial, sans-serif;">
+                                 &nbsp;
+                                </td>
+                            </tr>
+                      <tr>
+                              <td colspan="3" align="center" valign="bottom" style="padding-bottom:1%;">
+                               <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc54220ea2bad4f3e03ca9701dbf6463c6da68e6b35a8bfa2adf89e56d04db20d038842e40de20c3371fea326e69f86043bbca7647bcfab95a" ><img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/3/7db3c35e-7808-466e-83c1-71ffe93d271c.jpg" border="0" alt="Get the App" title="Get The App" class="Images_Resize" /></a></td>
+                            </tr>
+                     
+                        </table>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                <!--<![endif]-->
+                </td>
+            </tr>
+            <!-- END Mobile Header -->
+            
+            <!-- START Desktop Header -->
+            <tr>
+                <td style="padding-bottom:10px;" class="hide">
+                <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                    <tr>
+                        <td align="left" valign="bottom" width="240" style="padding-top:8px; padding-bottom:8px;" class="Width_100percent">
+                            &nbsp;
+                        </td>
+                        <td align="center" valign="bottom" width="138" class="hide">
+                            <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc638343ce38b118eab4e43d54f69db5719dcb09f559f05d8027f3c2cab92893ac75ff970ac7d0427b2747cd4d4a75e99576cf9faa2b8d3c88"  >
+                            <img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/7/829125d6-9d0e-4e7c-a512-fcef1fae1852.png" border="0" alt="Gilt" title="Gilt" width="143" height="auto" /></a>
+                        </td>
+                        <td width="240" align="right" valign="bottom" style="padding-bottom:24px; font-size:12px; color:#797979; font-family:Helvetica, Arial, sans-serif;" class="">&nbsp;</td>
+                    </tr>
+                </table>
+                <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" class="hide">               
+                    <tr>
+                        <td align="center" class="hide">
+                        <table border="0" cellspacing="0" cellpadding="0" width="60%">
+                            <tr>
+                                <td width="20%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#797979;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc1f30c965a2963eab2051676e0f87d30cfd033caefd1a1dec9a238261eebdd58d60fff014e2516c61420d4f36ed5286da408b5a8fe9f3fd40"  target="blank"  style="color:#797979; text-decoration:none;">WOMEN</a></td>
+                                <td width="20%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#797979;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc236b2501c52597a024b96d2b3609c818506042c0b40e2141861fbd9b17956792e38cec48a58c7c8613fbbe98920a68c5c1306d75943d2cb6"  target="blank"  style="color:#797979; text-decoration:none;">MEN</a></td>
+                                <td width="20%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#797979;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bca50cdc5d65a3151ba6bc8dc8218ded2459ccc92eba02423ad8bc6ab1771d0680536d6cdc1c9a404d90ce1865eb5377f08eb1bcbb947515f0"  target="blank"  style="color:#797979; text-decoration:none;">KIDS</a></td>
+                                <td width="20%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#797979;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc42b317ad90f4a1a914f1a72687c5f10df95cb4c3ab7c02504029d09da3dde20de44857988a9d3c9c3bda1557ee4526120bc0e01c1e6c6395"  target="blank"  style="color:#797979; text-decoration:none;">HOME</a></td>
+                                <td width="20%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#797979;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc144326bfb19b0a6eec3cda30c46b7e20034eeae30d562d2a4d5a9a9f5cad50312b28017717be4f383571b22b3855d1f82fd4cbbb970e0cff"  target="blank"  style="color:#797979; text-decoration:none;">CITY</a></td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+            <!-- END Desktop Header -->
+        </table>
+        </td>
+    </tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+  <tr><td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+    
+  </td></tr>
+</table>
+
+<!-- CMS Header Banner Table -->
+
+
+
+<!-- Body Table -->
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bccfd511de9185e0fcdb8fe606ff432bb5d3c4717f0d76c2a2f40b99ac4668be35628d5b15f266b50ec6cb01566750688a89d7fded579e0b8c" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/788433/788433_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bccfd511de9185e0fcdb8fe606ff432bb5d3c4717f0d76c2a2f40b99ac4668be35628d5b15f266b50ec6cb01566750688a89d7fded579e0b8c" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">2-Day Prices for Top Customers</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+
+  
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bcb90de85b7e711d5b259867afbbb5e96d007aaa9f124a9802cc9c824eb28a1f032791baf6626e85b4f75d6e47ca4f4a258f5f981af6411e7a" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/793125/793125_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bcb90de85b7e711d5b259867afbbb5e96d007aaa9f124a9802cc9c824eb28a1f032791baf6626e85b4f75d6e47ca4f4a258f5f981af6411e7a" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">Shirts to Shoes</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc65858069319aba5d092750f754b011176e9a5d164942e4591dd106da91c9b8527b6614ce97558df41f455e0d882b519f65466b9c873b79bb" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/793100/793100_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc65858069319aba5d092750f754b011176e9a5d164942e4591dd106da91c9b8527b6614ce97558df41f455e0d882b519f65466b9c873b79bb" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">A – Z Luxe for Men</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc8eff1acdcf98b0c15f6bea97e874c28315880286080305ab856ab6ebd407227603c29f8fd6e1d704c7a3f051919bd9734a801ccbef57246d" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/791424/791424_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc8eff1acdcf98b0c15f6bea97e874c28315880286080305ab856ab6ebd407227603c29f8fd6e1d704c7a3f051919bd9734a801ccbef57246d" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">Just In</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc27fc607c620212d6750221c526468aa9a2875bde3ba19510d6aa6afda456397e0266184b13522fef46b08d3108fe3e47fca0acffbe9ad6b4" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/786837/786837_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc27fc607c620212d6750221c526468aa9a2875bde3ba19510d6aa6afda456397e0266184b13522fef46b08d3108fe3e47fca0acffbe9ad6b4" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">Men’s Designer Eyewear</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc425cff9463fee08daf20d847ae1319018b0b5e1892940cc7251deca78702ffef58d00425e1a6614de6c0a0334c635358e6f74db02cd6cc7f" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/791419/791419_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc425cff9463fee08daf20d847ae1319018b0b5e1892940cc7251deca78702ffef58d00425e1a6614de6c0a0334c635358e6f74db02cd6cc7f" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">Tees to Button-Downs</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc6adc64c0193427a163c14cd79e55fa8b730ab6b7b8db2551a844e5b46d1f3e024a557bb84198815112ef1aeed9c33ff0bf0d1e48ba205be9" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/789161/789161_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc6adc64c0193427a163c14cd79e55fa8b730ab6b7b8db2551a844e5b46d1f3e024a557bb84198815112ef1aeed9c33ff0bf0d1e48ba205be9" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">New-In GV2 to Stührling Original</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc0634b492150558c2899f07e980dc483ae8ecb0bc9b432f3f59ed19013dc7ab64c1adcd9e459acd1207032a80604c627f530eacfe32670465" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/787170/787170_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc0634b492150558c2899f07e980dc483ae8ecb0bc9b432f3f59ed19013dc7ab64c1adcd9e459acd1207032a80604c627f530eacfe32670465" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">Polos to Pants</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- Output Hero Content Area -->
+<!-- Begin Hero Door Content Area, including Banner -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+
+        <!-- Banner Content Area, if applicable -->
+
+<!-- CMS Banner 2 Table -->
+
+<!-- /CMS Banner 2 Table -->
+
+<!-- CMS Banner 3 Table -->
+
+ 
+
+
+<!-- /CMS Banner 3 Table -->
+
+<!-- CMS Banner 4 Table -->
+
+ 
+
+
+<!-- /CMS Banner 4 Table -->
+
+<!-- CMS Banner 5 Table -->
+
+ 
+
+
+<!-- /CMS Banner 5 Table -->
+
+
+    <tr>
+        <td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+        <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+            <tr>
+                <td style="padding-bottom:10px;" valign="top">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bceeb2734a0fc3d50392b03a42f5e118ba0c2ff1a5d737f45056e4ad589be4d440b047627081dc6299d89c4a77e1440fcd1f247d7bd813c740" border="0"  ><img src="https://asset1.ruecdn.com/images/content/events/718919/718919_banner_tablet_hires.jpg" width="620" height="295" style="display:block;" border="0" alt="" class="Images_Resize" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:30px; font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#242424;" valign="top" align="center">
+                <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bceeb2734a0fc3d50392b03a42f5e118ba0c2ff1a5d737f45056e4ad589be4d440b047627081dc6299d89c4a77e1440fcd1f247d7bd813c740" border="0"  style="color:#242424; text-decoration:none;"  class="whiteText">Sneakers to Loafers</a>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table> 
+
+
+
+<!-- CMS Footer Banner Table -->
+
+  
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">  
+  <tr><td style="padding-left:10px; padding-right:10px;" class="padding_LR_5">
+    
+  </td></tr>
+</table>
+
+<!-- T&Cs Banner Table -->
+
+
+<!-- Footer Table -->
+<table cellpadding="0" cellspacing="0" border="0" width="640" align="center" class="Width_100percent">
+  <tr><td style="padding-left:10px; padding-right:10px; padding-top:10px;" class="padding_LR_5">
+    <table cellpadding="0" cellspacing="0" border="0" width="620" align="center" class="Width_100percent">
+      <tr><td>
+        <!-- Mobile Navigation Bar -->
+        <!--[if !mso 9]><!-->
+        <div style="max-height:0px;overflow:hidden" class="mobilecontent">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+          <tr><td align="center" valign="bottom"><img style="display:block;" src="https://image.communication.ruelala.com/lib/fe901372746d0c7d71/m/6/solid-line.png" border="0" width="100%" height="2" /></td></tr>
+          <tr><td align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:19px; color:#000001; font-weight:bold; border-bottom: solid 1px #cccccc; padding-top:10px; padding-bottom:10px;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc893c2cc881b70aaeac47cebeed95d8aeb5c913709fd489186b2634708b50bf8a04402ec1f71ecc045e38dceedca228dd076cd0ed7cf42a6b" style="color:#000001; text-decoration:none;"  >WOMEN</a></td></tr>
+          <tr><td align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:19px; color:#000001; font-weight:bold; border-bottom: solid 1px #cccccc; padding-top:10px; padding-bottom:10px;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc78fda7a84ae9e52ff091eb7bbd2773efb83fff7794c376bf460c79326a620b024bd68bf47e0b6c53e717133a71b93c031830270440607fe0" style="color:#000001; text-decoration:none;"  >MEN</a></td></tr>
+          <tr><td align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:19px; color:#000001; font-weight:bold; border-bottom: solid 1px #cccccc; padding-top:10px; padding-bottom:10px;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc40122f8ca7c5f08a458d4832e2663944701dbeea96b0c173ed61e25117935b16f02086b0649fad7323f3277ba5e2bbe0cb1a34e4bddc1abb" style="color:#000001; text-decoration:none;"  >KIDS</a></td></tr>
+          <tr><td align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:19px; color:#000001; font-weight:bold; border-bottom: solid 1px #cccccc; padding-top:10px; padding-bottom:10px;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bc337bedbd45143685f564febaca7f51e19d89f8f6fa348c49f180bdf38a2eb2e4f843408ec6742345fb6cb8152f617b8287647ae51e5959c1" style="color:#000001; text-decoration:none;"  >HOME</a></td></tr>
+          <tr><td align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:19px; color:#000001; font-weight:bold; padding-top:10px; padding-bottom:10px;"><a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bca82d8f74da30c9c5d83cb3abfb1b2e7c1056b0b85aded5673b817d0788c00c401f8c521f5e36cfb260c1ae18b6af4f0c2799cbd4cf0bddc8" style="color:#000001; text-decoration:none;"  >CITY</a></td></tr>
+        </table>
+        </div>
+        <!--<![endif]-->
+
+      <table border="0" cellspacing="0" cellpadding="0" width="620" align="center" class="Width_100percent">
+      <!-- Social Bar & Mobile Bar -->
+        <tr><td align="center" style="border-top: solid 1px #cccccc; border-bottom: solid 1px #cccccc;">
+          <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" class="Width_100percent">
+            <tr><td style="padding-top:1%; padding-bottom:1%;">
+              <table border="0" cellspacing="14" cellpadding="0" align="center" width="65%" class="width100">
+                <tr>
+                  <td align="center"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bcc6e78279bec3be0f4f7db5a1dd23a048a96c6aa0b15b6f6145a059945449cff79b414d84baa7bcd726b98ca3f3dbbe786295e816ed47d909"  target="blank" ><img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/7/fa1d521f-8a88-4c88-9c81-5d555cd77af1.png" border="0" alt="Facebook" width="36" height="36" class="Images_Resize" /></a></td>
+                  <td align="center"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bc0fab6658afe091962e4d816bef57d73b2dfd5772ebcfafc65f9f69f07a3071fa72d6e00f9ca8ecd4fd19071e5cb6978c83e13c1e4a10f118"  target="blank" ><img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/7/162abdda-fbaf-490d-a2f5-682d9c7bda9a.png" border="0" alt="Twitter" width="36" height="36" class="Images_Resize" /></a></td>
+                  <td align="center"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bc48441fe43e0dfe16a0f74f6c36b93fa618c782d4dcfab6644ae88c3b309fa5fdf36ac45d45b0c6035b05663849d6351b45a558bc4540611e"  target="blank" ><img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/7/cbf59dc3-8d99-49cf-a868-e162caa0e2f0.png" border="0" alt="Instagram" width="36" height="36" class="Images_Resize" /></a></td>
+                  <!--#IF NOT International Customer, display content -->
+                  <td align="center"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bc17963785986a112cbab3f2339e283f5a5ff377e764ab9d5d4e2647f7645f22c229c4ae790b6e2ef35572c23a5aab12b064cc37caeee80760"  target="blank" ><img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/7/1d2373c6-e365-4cf5-a728-5460e59bb6ef.png" border="0" alt="Download on the App Store" width="102" height="36" class="Images_Resize" /></a></td>
+                  <td align="center"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bc991f2018c467417eb94ddf96e51d28152b2173c846e1c93d4305564be9b05b91d5dac2d6114fa64e74bb15a992900bce50f8540361d6a969"  target="blank" ><img style="display:block;" src="https://image.p.gilt.com/lib/fe931373746c047574/m/7/090f2343-19a4-4705-af7a-f1617f6fb696.png" border="0" alt="Get it on Google play" width="92" height="36" class="Images_Resize" /></a></td>
+                  
+                  <!--#ENDIF International -->
+                </tr>
+              </table>
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- Footer Navigation Bar -->
+        <tr><td>
+          <table border="0" cellspacing="0" cellpadding="0" width="75%" align="center" class="Width_100percent">
+            <tr><td style="padding-top:4%; padding-bottom:4%;">
+              <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+                <tr>
+                  <td width="30%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#000001;" class="Font11"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bcdd20aa8b1e74f2d88e943d03b15bc9dd929257bd9a00d9233630f7d2d614714b4057001716e5ff926a1510fc94d8814589b4ffbd5d6bd978"  style="text-decoration:none; COLOR:#000001;"  target="blank" >Customer Service</a></td>
+                  <td width="15%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#000001;" class="Font11"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bc01ecec5d6c09e3a02462c2b06f04a45a2de9d6bb306c10f464507daa9e5f58605cf32822b2f0fba5efad366f9a22ade7ba69333e859efad1"  style="text-decoration:none; COLOR:#000001;"  target="blank" >Privacy</a></td>
+                  <td width="24%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#000001;" class="Font11"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bcfd1a0cb75f557ed0b287b2c621d0c67ea3c3876b99691913af1d7568a8ecfcbe212eb2f182e0bf93b722197e7ace48fba655dcfae495cf35"  style="text-decoration:none; COLOR:#000001;"  target="blank" >Terms of Use</a></td>
+                  <td width="31%" align="center" style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#000001;" class="Font11"><a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bcaeca0c0f1a2452b0e549860d5f8498f416d159a13dad796909a302d84aba35d0dbfc615e1364fa553d92c4db544901181bbb6d86a63b956e"  style="text-decoration:none; COLOR:#000001;"  target="blank" >Terms of Membership</a></td>
+                </tr>
+              </table>
+            </td></tr>
+          </table>
+        </td></tr>
+        
+        <!-- Footer CAN-SPAM Content -->
+        <tr><td class="Footer_CANSPAM_Font" align="center" valign="top" style="padding-left:2%; padding-right:2%; padding-bottom:4%; font-family:Helvetica, Arial, sans-serif; font-size:10px; line-height:18px; color:#666666;">
+          <!-- ReturnPath Email Client Monitor Pixel -->
+          <img src="https://pixel.app.returnpath.net/pixel.gif?r=aad16a381215494acc89eaee8f5fe7794dad5701&j=375339&s=46652734" width="1" height="1" />
+          To adjust your email preferences or unsubscribe, <a href="https://click.p.gilt.com/u/?qs=adc9220fe3e8b0bcd1e7cfc761eac969f2e44f68bbcd527badeff35ff9b531b129fd49411ba35f8cab770ca33d4522cc72014be126ff813f0d6b3ce163f8bfe4" style="color:#666666 !important;"   ><span style="color:#666666">use this link</span></a>. To update your email address, go to <a href="https://click.p.gilt.com/?qs=adc9220fe3e8b0bcee7d595947d95eafa255c29f32fca4ae7461ff43405bcb8b5be0212df251c3f29ac39bab63f8da27cf85687849631dfa7f7eaff895ba6210" style="color:#666666 !important;"  target="blank" ><span style="color:#666666;">Your&nbsp;Account</span></a>. Mailing address: <a href="" style="color:#666666 !important; text-decoration:none !important;">20&nbsp;Channel Center, 3rd Floor, Boston, MA 02210</a>. This is an email advertisement. &copy;2023 Gilt Groupe, LP.  All rights&nbsp;reserved.</td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</td></tr>
+</table>
+</body>
+</html>
